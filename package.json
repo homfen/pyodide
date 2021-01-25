@@ -1,17 +1,28 @@
 {
-  "name": "pyodide",
-  "version": "0.1.1",
+  "name": "pyodide-es6",
+  "version": "0.0.1",
   "description": "A packaged version of pyodide with a clear export",
-  "main": "lib/index.js",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "webpack --mode production"
+  },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/ajkachnic/pyodide.git"
+    "url": "git+https://github.com/homfen/pyodide.git"
   },
-  "author": "Andrew Kachnic <ajkachnic@protonmail.com> (andrewkachnic.now.sh)",
+  "author": "homfen@gmail.com",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/ajkachnic/pyodide/issues"
+    "url": "https://github.com/homfen/pyodide/issues"
   },
-  "homepage": "https://github.com/ajkachnic/pyodide#readme",
-  "dependencies": {}
+  "homepage": "https://github.com/homfen/pyodide#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "@babel/core": "^7.12.10",
+    "@babel/preset-env": "^7.12.11",
+    "babel": "^6.23.0",
+    "babel-loader": "^8.2.2",
+    "webpack": "^5.17.0",
+    "webpack-cli": "^4.4.0"
+  }
 }
