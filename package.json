@@ -1,6 +1,6 @@
 {
   "name": "pyodide-es6",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "A packaged version of pyodide with a clear export",
   "main": "dist/index.js",
   "scripts": {
